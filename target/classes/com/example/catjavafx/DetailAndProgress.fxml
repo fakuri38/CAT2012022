@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="651.0" prefWidth="600.0" style="-fx-background-color: #ffe4c4;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.catjavafx.MenuController">
+   <children>
+      <Button layoutX="259.0" layoutY="558.0" mnemonicParsing="false" onAction="#switchToOrder" style="-fx-background-color: #ffa500;" text="BACK TO ORDER" />
+      <AnchorPane layoutX="85.0" layoutY="14.0" prefHeight="277.0" prefWidth="446.0" style="-fx-background-color: #ffa500;">
+         <children>
+            <ImageView fitHeight="211.0" fitWidth="382.0" layoutX="85.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@spongebob-krabby-patty.gif" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea layoutX="147.0" layoutY="355.0" prefHeight="187.0" prefWidth="329.0" />
+      <Text layoutX="256.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ORDER DETAILS">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
